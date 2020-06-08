@@ -1078,7 +1078,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-  background: #313131;
+  background: #FF0077;
   position: relative;
   height: 100%;
 }
@@ -1741,7 +1741,7 @@ header .logo a {
 
 .intro-info .lead {
   text-align: left;
-  padding-left: 13rem;
+  /* padding-left: 13rem; */
 }
 
 .about-content {
@@ -1782,7 +1782,7 @@ header .logo a {
   font-family: "poppins-regular", sans-serif;
   color: #888888;
   font-size: 1.5rem;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .about-content .skill-bars {
@@ -2185,7 +2185,9 @@ header .logo a {
 }
 
 .popup-modal img {
-  vertical-align: bottom;
+  /* vertical-align: bottom; */
+  width: 100%;
+  height: auto;
 }
 
 .popup-modal .description-box {
